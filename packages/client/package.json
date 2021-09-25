@@ -23,7 +23,7 @@
     "@altruist/components":"0.1.0"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "yarn codegen && craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
